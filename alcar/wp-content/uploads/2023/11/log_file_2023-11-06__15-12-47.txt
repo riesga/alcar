@@ -1,0 +1,57 @@
+
+---Archivos descargados---
+Los archivos de importación para Builders Landing Page Demo ¡han sido descargados correctamente!
+Tiempo máximo de ejecución inicial = 30
+Información de archivos:
+URL del sitio = http://localhost
+Archivo de datos = /var/www/html/wp-content/uploads/rara-demo-pack/builders-landing-page-demo-content/content/blp.xml
+Archivo del widget = /var/www/html/wp-content/uploads/rara-demo-pack/builders-landing-page-demo-content/content/blp.wie
+Archivo del personalizador = /var/www/html/wp-content/uploads/rara-demo-pack/builders-landing-page-demo-content/content/blp.dat
+
+------
+Número de llamada AJAX completado: 1
+
+
+------
+Número de llamada AJAX completado: 2
+
+
+------
+Número de llamada AJAX completado: 3
+
+
+---Importando el contenido---
+
+Tiempo máximo de ejecución después de la importación del contenido = 300
+
+---Importando los widgets---
+Right Sidebar : 
+
+Buscar - No Title - Imported
+RARA: Featured Post - No Title - Imported
+RARA: Social Links - Follow Us On - Imported
+RARA: Popular Post - Popular Posts - Imported
+RARA: Recent Post - Recent Posts - Imported
+Meta - No Title - Imported
+Categorías - No Title - Imported
+
+Footer Sidebar First : 
+
+Texto - About Us - Imported
+RARA: Social Links - Follow Us - Imported
+
+Footer Sidebar Second : 
+
+RARA: Recent Post - Recent Posts - Imported
+
+Footer Sidebar Third : 
+
+Categorías - Categories - Imported
+
+
+
+---Importando los ajustes del personalizador---
+¡Finalizada la importación de los ajustes del personalizador!
+
+---rrdi/after_import---
+

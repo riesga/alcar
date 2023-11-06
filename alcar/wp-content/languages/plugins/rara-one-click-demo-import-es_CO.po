@@ -1,0 +1,445 @@
+# Translation of Plugins - Rara One Click Demo Import - Stable (latest release) in Spanish (Colombia)
+# This file is distributed under the same license as the Plugins - Rara One Click Demo Import - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-18 22:55:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: es_CO\n"
+"Project-Id-Version: Plugins - Rara One Click Demo Import - Stable (latest release)\n"
+
+#: includes/class-rrdi-helpers.php:585 includes/class-rrdi-helpers.php:586
+msgid "not defined!"
+msgstr "¡Sin definir!"
+
+#: includes/class-rrdi-helpers.php:581
+msgid "Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s%1$sCustomizer file = %5$s"
+msgstr "Información de archivos:%1$sURL del sitio = %2$s%1$sArchivo de datos = %3$s%1$sArchivo del widget = %4$s%1$sArchivo del personalizador = %5$s"
+
+#: includes/class-rrdi-helpers.php:577
+msgid "Initial max execution time = %s"
+msgstr "Tiempo máximo de ejecución inicial = %s"
+
+#: includes/class-rrdi-helpers.php:559
+msgid "The import files were successfully uploaded!"
+msgstr "¡Los archivos de importación ha sido subidos correctamente!"
+
+#: includes/class-rrdi-helpers.php:549
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr "No se ha subido el archivo del personalizador. Error: %s"
+
+#: includes/class-rrdi-helpers.php:530
+msgid "Widget file was not uploaded. Error: %s"
+msgstr "No se ha subido el archivo del widget. Error: %s"
+
+#: includes/class-rrdi-helpers.php:512 includes/class-rrdi-helpers.php:534
+#: includes/class-rrdi-helpers.php:553 includes/class-rrdi-helpers.php:561
+msgid "Upload files"
+msgstr "Subir archivos"
+
+#: includes/class-rrdi-helpers.php:510
+msgid "Please upload XML file for content import. If you want to import widgets or customizer settings only, please use Widget Importer & Exporter or the Customizer Export/Import plugin."
+msgstr "Por favor, sube el archivo XML para la importación de contenido. Si solo quieres importar los widgets o los ajustes del personalizador, usa el plugin Widget Importer & Exporter o el plugin Customizer Export/Import."
+
+#: includes/class-rrdi-helpers.php:474
+msgid "%sYour user role isn't high enough. You don't have permission to import demo data.%s"
+msgstr "%sTu perfil de usuario no es lo suficientemente elevado. No tienes permiso para importar los datos de la demostración.%s"
+
+#: includes/class-rrdi-helpers.php:438
+msgid "Rara One Click Demo Import - "
+msgstr "Rara One Click Demo Import - "
+
+#: includes/class-rrdi-helpers.php:373
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr "¡Tus credenciales de acceso de WordPress no te permiten usar `WP_Filesystem`!"
+
+#: includes/class-rrdi-helpers.php:365
+msgid "An error occurred while retrieving reading/writing permissions to your server (could not retrieve WP filesystem credentials)!"
+msgstr "¡Ha ocurrido un error al recuperar los permisos de lectura/escritura de tu servidor (no se han podido recuperar las credenciales del sistema de archivos WP)!"
+
+#: includes/class-rrdi-helpers.php:341
+msgid "This WordPress page does not have %sdirect%s write file access. This plugin needs it in order to save the demo import xml file to the upload directory of your site. You can change this setting with these instructions: %s."
+msgstr "Esta página de WordPress no tiene acceso %sdirecto%s de escritura de archivos. Este plugin lo necesita para poder guardar el archivo XML de importación de la demostración en el directorio de subidas de tu sitio. Puedes cambiar este ajuste con estas instrucciones: %s."
+
+#: includes/class-rrdi-helpers.php:317
+msgid "An error occurred while reading a file from your server! Tried reading file from path: %s%s."
+msgstr "¡Ha ocurrido un error al leer un archivo de tu servidor! Se ha intentado leer el archivo de la ruta: %s%s."
+
+#: includes/class-rrdi-helpers.php:238 includes/class-rrdi-helpers.php:282
+msgid "An error occurred while writing file to your server! Tried to write a file to: %s%s."
+msgstr "¡Ha ocurrido un error al escribir un archivo en tu servidor! Se ha intentado escribir un archivo en: %s%s."
+
+#: includes/class-rrdi-helpers.php:198
+msgid "An error occurred while fetching %s%s%s file from the server!%sReason: %s - %s."
+msgstr "¡Ha ocurrido un error al recuperar el archivo %s%s%s del servidor!%sMotivo: %s - %s."
+
+#: includes/class-rrdi-helpers.php:176
+msgid "URL for %s%s%s file is not defined!"
+msgstr "¡No se ha definido la URL para el archivo %s%s%s!"
+
+#: includes/class-rrdi-helpers.php:70
+msgid "\"import_file_url\" or \"local_import_file\" for %s%s%s are not defined!"
+msgstr "¡No se ha definido `import_file_url` o `local_import_file` para %s%s%s!"
+
+#: includes/class-rrdi-main.php:726
+msgid "Completed AJAX call number: "
+msgstr "Número de llamada AJAX completado: "
+
+#: includes/class-rrdi-main.php:674
+msgid "Customizer settings import finished!"
+msgstr "¡Finalizada la importación de los ajustes del personalizador!"
+
+#: includes/class-rrdi-main.php:668 includes/class-rrdi-main.php:676
+msgid "Importing customizer settings"
+msgstr "Importando los ajustes del personalizador"
+
+#: includes/class-rrdi-main.php:634 includes/class-rrdi-main.php:646
+msgid "Importing widgets"
+msgstr "Importando los widgets"
+
+#: includes/class-rrdi-main.php:595
+msgid "Importing content"
+msgstr "Importando el contenido"
+
+#: includes/class-rrdi-main.php:593
+msgid "Max execution time after content import = "
+msgstr "Tiempo máximo de ejecución después de la importación del contenido = "
+
+#: includes/class-rrdi-main.php:536
+msgid "%1$sUnfortunately, demo import has finished with some errors.%2$sMore details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr "%1$sLamentablemente, la importación de la demostración ha finalizado con algunos errores.%2$s Se pueden encontrar más detalles sobre los errores en este %3$s%5$sarchivo de registro%6$s%4$s%7$s"
+
+#: includes/class-rrdi-main.php:526
+msgid "%1$s%3$sCompleted Successfully!%4$s%2$sThe process has finished. Please check your page and make sure that everything has been imported correctly. If you want, you can now deactivate the %3$sRara One Click Demo Import%4$s plugin.%5$s"
+msgstr "%1$s%3$s¡Completado correctamente!%4$s%2$s El proceso ha finalizado. Por favor, comprueba tu página y asegúrate de que todo ha sido importado correctamente. Si quieres, ahora puedes desactivar el plugin %3$sRara One Click Demo Import%4$s.%5$s"
+
+#: includes/class-rrdi-main.php:479
+msgid "No import files specified!"
+msgstr "¡No se han especificado archivos para importar!"
+
+#: includes/class-rrdi-main.php:470
+msgid "The import files for: %s were successfully downloaded!"
+msgstr "Los archivos de importación para %s ¡han sido descargados correctamente!"
+
+#: includes/class-rrdi-main.php:463 includes/class-rrdi-main.php:474
+msgid "Downloaded files"
+msgstr "Archivos descargados"
+
+#: includes/class-rrdi-main.php:447
+msgid "Manually uploaded files"
+msgstr "Archivos subidos manualmente"
+
+#: includes/class-rrdi-main.php:346
+msgid "rara"
+msgstr "rara"
+
+#: includes/class-rrdi-main.php:246
+msgid "Upload Demo File"
+msgstr "Subir el archivo de la demostración"
+
+#: includes/class-rrdi-main.php:244
+msgid "RARA Demo Import"
+msgstr "RARA Demo Import"
+
+#: includes/class-rrdi-main.php:217
+msgid "Installing Demo from uploaded file: %s"
+msgstr "Instalando la demostración desde el archivo subido: %s"
+
+#: includes/class-rrdi-main.php:210
+msgid "Sorry, you are not allowed to install demo on this site."
+msgstr "Lo siento, no tienes permiso para para instalar la demostración en este sitio."
+
+#: includes/class-rrdi-helpers.php:353 includes/class-rrdi-main.php:181
+msgid "Rara Demo Import"
+msgstr "Rara Demo Import"
+
+#: includes/class-rrdi-helpers.php:352 includes/class-rrdi-main.php:180
+msgid "Rara One Click Demo Import"
+msgstr "Rara One Click Demo Import"
+
+#: includes/extras/class-wxr-importer.php:1994
+msgid "Could not update comment #%d with mapped data"
+msgstr "No se ha podido actualizar el comentario #%d con los datos asignados"
+
+#: includes/extras/class-wxr-importer.php:1977
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr "El comentario %d ha sido importado con el autor %d, pero no se ha podido encontrar"
+
+#: includes/extras/class-wxr-importer.php:1973
+msgid "Could not find the author for comment #%d"
+msgstr "No se ha podido encontrar al autor del comentario #%d"
+
+#: includes/extras/class-wxr-importer.php:1959
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr "El comentario %d ha sido importado con el principal %d, pero no se ha podido encontrar"
+
+#: includes/extras/class-wxr-importer.php:1955
+msgid "Could not find the comment parent for comment #%d"
+msgstr "No se ha podido encontrar el comentario principal del comentario #%d"
+
+#: includes/extras/class-wxr-importer.php:1933
+msgid "Post %d was imported with object \"%d\" of type \"%s\", but could not be found"
+msgstr "La entrada %d ha sido importada con el objeto «%d» del tipo «%s», pero no se ha podido encontrar"
+
+#: includes/extras/class-wxr-importer.php:1928
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr "No se ha podido encontrar el objeto del menú para «%s» (entrada #%d)"
+
+#: includes/extras/class-wxr-importer.php:1883
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr "No se ha podido actualizar «%s» (entrada #%d) con los datos asignados"
+
+#: includes/extras/class-wxr-importer.php:1872
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr "La entrada %d ha sido marcada para el posproceso, pero no se ha solicitado ninguno."
+
+#: includes/extras/class-wxr-importer.php:1846
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr "La entrada %d ha sido importada con el autor «%s», pero no se ha podido encontrar"
+
+#: includes/extras/class-wxr-importer.php:1841
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr "No se ha podido encontrar el autor de «%s» (entrada #%d)"
+
+#: includes/extras/class-wxr-importer.php:1827
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr "La entrada %d ha sido importada con la principal %d, pero no se ha podido encontrar"
+
+#: includes/extras/class-wxr-importer.php:1822
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr "No se ha podido encontrar la entrada principal de «%s» (entrada #%d)"
+
+#: includes/extras/class-wxr-importer.php:1809
+msgid "Running post-processing for post %d"
+msgstr "Ejecutando el posproceso de la entrada %d"
+
+#: includes/extras/class-wxr-importer.php:1787
+msgid "Remote file is too large, limit is %s"
+msgstr "El archivo remoto es demasiado grande, el límite es %s"
+
+#: includes/extras/class-wxr-importer.php:1781
+msgid "Zero size file downloaded"
+msgstr "Descargado un archivo de tamaño cero"
+
+#: includes/extras/class-wxr-importer.php:1776
+msgid "Remote file is incorrect size"
+msgstr "El tamaño del archivo remoto es incorrecto"
+
+#: includes/extras/class-wxr-importer.php:1763
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr "El servidor remoto ha devuelto %1$d %2$s para %3$s"
+
+#: includes/extras/class-wxr-importer.php:1710
+msgid "Term %d remapped to %d"
+msgstr "El término %d ha sido reasignado a %d"
+
+#: includes/extras/class-wxr-importer.php:1681
+msgid "Failed to import %s %s"
+msgstr "Fallo al importar %s %s"
+
+#: includes/extras/class-wxr-importer.php:1544
+msgid "User %d remapped to %d"
+msgstr "El usuario %d ha sido reasignado a %d"
+
+#: includes/extras/class-wxr-importer.php:1540
+msgid "Imported user \"%s\""
+msgstr "Usuario importado «%s»"
+
+#: includes/extras/class-wxr-importer.php:1519
+msgid "Failed to import user \"%s\""
+msgstr "Fallo al importar el usuario «%s»"
+
+#: includes/extras/class-wxr-importer.php:1036
+msgid "Invalid file type"
+msgstr "Tipo de archivo no válido"
+
+#: includes/extras/class-wxr-importer.php:892
+msgid "Post %d remapped to %d"
+msgstr "La entrada %d ha sido reasignada a %d"
+
+#: includes/extras/class-wxr-importer.php:887
+#: includes/extras/class-wxr-importer.php:1705
+msgid "Imported \"%s\" (%s)"
+msgstr "Importado «%s» (%s)"
+
+#: includes/extras/class-wxr-importer.php:855
+msgid "Failed to import \"%s\" (%s)"
+msgstr "Fallo al importar «%s» (%s)"
+
+#: includes/extras/class-wxr-importer.php:841
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr "Omitiendo el adjunto «%s», desactivada la obtención de adjuntos"
+
+#: includes/extras/class-wxr-importer.php:763
+msgid "%s \"%s\" already exists."
+msgstr "%s «%s» ya existe."
+
+#: includes/extras/class-wxr-importer.php:753
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr "Fallo al importar «%s»: tipo de contenido %s no válido"
+
+#: includes/extras/class-wxr-importer.php:665
+msgid "Cannot import auto-draft posts"
+msgstr "No se pueden importar borradores automáticos de entradas"
+
+#: includes/extras/class-wxr-importer.php:564
+msgid "Invalid author mapping"
+msgstr "Asignación de autor no válida"
+
+#: includes/extras/class-wxr-importer.php:504
+msgid "The file does not exist, please try again."
+msgstr "El archivo no existe, por favor, inténtalo de nuevo."
+
+#: includes/extras/class-wxr-importer.php:166
+#: includes/extras/class-wxr-importer.php:282
+#: includes/extras/class-wxr-importer.php:355
+msgid "This WXR file (version %s) is newer than the importer (version %s) and may not be supported. Please consider updating."
+msgstr "Este archivo WXR (versión %s) es más nuevo que el importador (versión %s) y puede no ser compatible. Por favor, plantéate actualizar."
+
+#: includes/extras/class-wxr-importer.php:130
+msgid "Could not open the file for parsing"
+msgstr "No se puede abrir el archivo para analizar"
+
+#: includes/class-rrdi-init.php:23
+msgid "The %2$sRara One Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run properly. Please contact your hosting company and ask them to update the PHP version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: %2$s%1$s%3$s"
+msgstr "Para funcionar correctamente, el plugin %2$sRara One Click Demo Import%3$s necesita %2$sPHP 5.3.2 o superior%3$s. Por favor, contacta con tu empresa de alojamiento y pídeles que actualicen la versión de PHP de tu sitio, al menos, a la versión 5.3.2 de PHP.%4$s Tu versión actual de PHP es: %2$s%1$s%3$s"
+
+#: includes/settings/installed-demos.php:233
+msgid "Importing now, please wait!"
+msgstr "Importando ahora, por favor, ¡espera!"
+
+#: includes/settings/installed-demos.php:229
+msgid "Click the button to begin the importing process. Please be patient, the process might take a few minutes."
+msgstr "Haz clic en el botón para comenzar el proceso de importación. Por favor, sé paciente, el proceso puede tardar unos cuantos minutos."
+
+#: includes/settings/installed-demos.php:228
+msgid "Import Now"
+msgstr "Importar ahora"
+
+#: includes/class-rrdi-main.php:391 includes/settings/installed-demos.php:184
+msgid "No preview image defined for this import."
+msgstr "No se ha definido una vista previa de la imagen para esta importación."
+
+#: includes/settings/installed-demos.php:179
+msgid "Import preview:"
+msgstr "Vista previa de la importación:"
+
+#: includes/settings/installed-demos.php:154
+msgid "Choose which demo you want to import:"
+msgstr "Elige qué demostración quieres importar:"
+
+#: includes/settings/installed-demos.php:107
+msgid "Note: For free themes, always upload the appropriate demo zip file from %1$s Demo Import %2$s tab and import demo data as mentioned there."
+msgstr "Nota: Para los temas gratuitos, sube siempre el archivo ZIP de demostración correcto desde la pestaña %1$s Importar la demostración %2$s e importa los datos de la demostración tal como se indica allí."
+
+#: includes/settings/installed-demos.php:63
+msgid "Note: To import demo content for the free themes, please follow the step-by-step instructions mentioned in the %1$s Demo Import %2$s tab."
+msgstr "Nota: Para importar el contenido de demostración para los temas gratuitos, por favor, sigue las instrucciones paso a paso que se indican en la pestaña %1$s Importar la demostración %2$s."
+
+#: includes/settings/installed-demos.php:56
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/settings/installed-demos.php:55
+msgid "Menus"
+msgstr "Menús"
+
+#: includes/settings/installed-demos.php:54
+msgid "Widgets"
+msgstr "Widgets"
+
+#: includes/settings/installed-demos.php:53
+msgid "Images"
+msgstr "Imágenes"
+
+#: includes/settings/installed-demos.php:52
+msgid "Pages"
+msgstr "Páginas"
+
+#: includes/settings/installed-demos.php:51
+msgid "Posts"
+msgstr "Entradas"
+
+#: includes/settings/installed-demos.php:48
+msgid "The following data will be imported:"
+msgstr "Se importarán los siguientes datos:"
+
+#: includes/settings/installed-demos.php:34
+msgid "If you are using premium themes by %1$s, just click Import Now button below. Alternatively, you can download zip files from the %2$s page of your theme and upload it as mentioned in Demo Import tab. As simple as that."
+msgstr "Si usas temas premium de %1$s, solo tienes que hacer clic en el botón «Importar ahora» que aparece a continuación. Como alternativa, puedes descargar los archivos ZIP de la página %2$s de tu tema y subirlos como se indica en la pestaña «Importar la demostración». Tan sencillo como eso."
+
+#: includes/settings/installed-demos.php:12
+msgid "%1$sWarning: your server is using %2$sPHP safe mode%3$s. This means that you might experience server timeout errors.%4$s"
+msgstr "%1$sAdvertencia: tu servidor está usando el %2$smodo seguro de PHP%3$s. Esto significa que puedes experimentar errores de tiempo de espera del servidor.%4$s"
+
+#: includes/settings/installed-demos.php:3
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr "Antes de empezar, asegúrate de que están activados todos los plugins necesarios."
+
+#: includes/settings/intro.php:19
+msgid "You can check the PHP configuartion of your site by using any plugins like %1$s."
+msgstr "Puedes comprobar la configuración PHP de tu sitio usando algún plugin como %1$s."
+
+#: includes/settings/intro.php:15
+msgid "Please request your hosting to give you the above configuration and then try the demo import again. If you are constantly having an issue with the hosting, you may want to consider to move to better WordPress hosting. We have reviewed %1$s. If the issue is not fixed after the above configuration, please let us know for the further assistance."
+msgstr "Por favor, pide a tu alojamiento que te proporcione la configuración anterior y, después, vuelve a intentar la importación de la demostración. Si tienes constantemente un problema con el alojamiento, puedes plantearte cambiar a uno mejor para WordPress. Hemos revisado %1$s. Si el problema no se ha corregido después de la configuración anterior, por favor, háznoslo saber para obtener más ayuda."
+
+#: includes/settings/installed-demos.php:71 includes/settings/intro.php:23
+#: includes/settings/welcome.php:42
+msgid "Note: We highly recommend to import the demo content on a fresh WordPress installation. You can reset your website to a fresh WordPress installation using a reset plugin like %1$s."
+msgstr "Nota: Recomendamos encarecidamente importar el contenido de la demostración en una instalación nueva de WordPress. Puedes restablecer tu web a una instalación nueva de WordPress usando un plugin de restablecimiento como %1$s."
+
+#: includes/settings/welcome.php:38
+msgid "Click on the %1$sImport Demo Now!%2$s button to begin demo installation. It will take few minutes to successfully import the demo."
+msgstr "Haz clic en el botón %1$s¡Importar la demostración ahora!%2$s para comenzar la instalación de la demostración. Tardará unos pocos minutos en importar correctamente la demostración."
+
+#: includes/settings/welcome.php:37
+msgid "Click on %1$sChoose File%2$s button and upload the demo file downloaded in step 1. Then, click on the %3$sInstall Now%4$s button."
+msgstr "Haz clic en el botón %1$sElegir el archivo%2$s y sube el archivo de demostración descargado en el paso 1. Después, haz clic en el botón %3$sInstalar ahora%4$s."
+
+#: includes/settings/welcome.php:34
+msgid "Click on the %1$sUpload Demo File%2$s button above."
+msgstr "Haz clic en el botón %1$sSubir el archivo de la demostración%2$s anterior."
+
+#: includes/settings/welcome.php:18
+msgid "Download the demo file from your theme %1$s page. If you are unable to download the demo file, please %2$s."
+msgstr "Descarga el archivo de demostración desde la página %1$s de tu tema. Si no puedes descargar el archivo de demostración, por favor, %2$s."
+
+#: includes/settings/welcome.php:11
+msgid "A Step-by-Step Guide to Import the Demo Content"
+msgstr "Una guía paso a paso para importar el contenido de la demostración"
+
+#: includes/settings/welcome.php:7
+msgid "Install Now"
+msgstr "Instalar ahora"
+
+#: includes/settings/welcome.php:5
+msgid "Demo zip file"
+msgstr "Archivo ZIP de la demostración"
+
+#: includes/settings/welcome.php:2
+msgid "If you have a demo pack in a .zip format, you may install it by uploading it here."
+msgstr "Si tienes un paquete de demostración en formato «.zip», puedes instalarlo subiéndolo aquí."
+
+#. Author URI of the plugin
+msgid "https://www.rarathemes.com"
+msgstr "https://www.rarathemes.com"
+
+#. Author of the plugin
+msgid "raratheme"
+msgstr "raratheme"
+
+#. Description of the plugin
+msgid "Import demo content, widgets and settings of themes made by RaraTheme with just one click."
+msgstr "Importa, con un solo clic, contenido de demostración, widgets y ajustes de temas creados por RaraTheme."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/rara-one-click-demo-import/"
+msgstr "https://es-co.wordpress.org/plugins/rara-one-click-demo-import/"
+
+#. Plugin Name of the plugin
+msgid "RARA One Click Demo Import"
+msgstr "RARA One Click Demo Import"

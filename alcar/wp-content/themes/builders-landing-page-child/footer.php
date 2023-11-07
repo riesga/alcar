@@ -55,10 +55,12 @@ if( is_home() || ! $ed_section || ! ( is_front_page()  || is_page_template( 'tem
 					<?php } ?> 
 				</div>
 				<div class="by">
-                    <?php esc_html_e( 'Contact us Alcar All Services ', 'builders-landing-page' ); ?>
-                    <a href="<?php echo esc_url( 'https://alcar.services/' ); ?>" rel="nofollow" target="_blank">
-                    	<?php esc_html_e( 'satisfaction guarantee!', 'builders-landing-page' ); ?>
-                    </a>                                           
+                    <?php esc_html_e( 'Builders Landing Page | Developed By ', 'builders-landing-page' ); ?>
+                    <a href="<?php echo esc_url( 'https://rarathemes.com/' ); ?>" rel="nofollow" target="_blank">
+                    	<?php esc_html_e( 'Rara Theme', 'builders-landing-page' ); ?>
+                    </a>                       
+                    <?php esc_html_e( 'Powered by ', 'builders-landing-page' ); ?>
+                    <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'builders-landing-page' ) ); ?>" target="_blank"><?php esc_html_e( 'WordPress', 'builders-landing-page' ); ?></a>
                     <?php
 	                    if ( function_exists( 'the_privacy_policy_link' ) ) {
 	                        the_privacy_policy_link();

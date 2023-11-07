@@ -1,5 +1,5 @@
 /*
-Theme Name: Builders Landing Page
+Theme Name: Builders Landing Page Child
 Theme URI: https://rarathemes.com/wordpress-themes/builders-landing-page/
 Template: construction-landing-page  
 Author: Rara Theme
@@ -105,7 +105,7 @@ input[type="submit"]:focus{
 }
 
 .site-header .top-bar{
-    background: #0066CC;
+    background: #1C1C1C;
     padding: 11px 0 10px;
 }
 
@@ -373,7 +373,7 @@ input[type="submit"]:focus{
 .main-navigation ul .current-menu-ancestor > a,
 .main-navigation ul .current_page_item > a,
 .main-navigation ul .current_page_ancestor > a{
-    background: #154384;
+    background: #1C1C1C;
     color: #fff;
     text-decoration: none;
 }
@@ -405,7 +405,7 @@ input[type="submit"]:focus{
 }
 
 .main-navigation ul li a.request-link{
-    background: #154384;
+    background: #1c1c1c;
 }
 
 .main-navigation ul li a.request-link:hover,

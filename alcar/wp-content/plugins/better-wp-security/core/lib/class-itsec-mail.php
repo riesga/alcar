@@ -645,7 +645,7 @@ final class ITSEC_Mail {
 	}
 
 	private function build_list_item_paragraphs( $item ): string {
-		return "<p style=\"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:23px;color:#3c1596;font-size:15px\"><u>{$item}</u></p>";
+		return "<p style=\"Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:23px;font-size:15px\">{$item}</p>";
 	}
 
 	/**

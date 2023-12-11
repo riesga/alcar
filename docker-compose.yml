@@ -11,8 +11,14 @@ services:
       WORDPRESS_DB_NAME: dbalcar
       WORDPRESS_DB_USER: usralcar
       WORDPRESS_DB_PASSWORD: 123456789
+      file_uploads: On
+      memory_limit: 64M
+      upload_max_filesize: 64M
+      post_max_size: 64M
+      max_execution_time: 600
     volumes:
       - ./alcar:/var/www/html
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
   mysql:
     image: mysql:latest
     ports:
